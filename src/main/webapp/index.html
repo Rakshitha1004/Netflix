@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:black;
+            color:white;
+        }
+
+        .header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 50px;
+        }
+
+        .logo{
+            font-size:32px;
+            font-weight:bold;
+            color:red;
+        }
+
+        .signin{
+            background:red;
+            border:none;
+            padding:10px 18px;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+            border-radius:4px;
+        }
+
+        .hero{
+            height:90vh;
+            background:url("https://assets.nflxext.com/ffe/siteui/vlv3/9b2b36d1-9a60-4e9f-9db4-d0d29010c191/8c93e6b6-6d67-4a35-bc93-7ed2da937352/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+            background-size:cover;
+            background-position:center;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        .hero p{
+            font-size:22px;
+        }
+
+        .email-box{
+            margin-top:20px;
+        }
+
+        input{
+            padding:12px;
+            width:300px;
+            border:none;
+        }
+
+        .getstarted{
+            padding:12px 20px;
+            background:red;
+            color:white;
+            border:none;
+            font-size:16px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">NETFLIX</div>
+        <button class="signin">Sign In</button>
+    </div>
+
+    <div class="hero">
+        <div>
+            <h1>Unlimited movies, TV shows and more</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+
+            <div class="email-box">
+                <input type="email" placeholder="Enter your email">
+                <button class="getstarted">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
